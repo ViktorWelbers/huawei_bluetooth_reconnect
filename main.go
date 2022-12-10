@@ -12,7 +12,7 @@ import (
 
 const filename = "huawei_bluetooth_address.txt"
 
-var headphoneBluetoothAddress string = "00:AD:D5:B4:65:11"
+var headphoneBluetoothAddress = "00:AD:D5:B4:65:11"
 
 func filterBluetoothDevices(deviceList []string) (string, error) {
 	var bluetoothAddress string
